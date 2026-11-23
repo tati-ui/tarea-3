@@ -16,7 +16,7 @@ Se desarrolló una aplicación React para administrar una colección personal de
 React permite organizar la interfaz en componentes y actualizar la información sin recargar la página.
 
 ### Evidencia
-Pendiente: agregar captura del tablero.
+Se verificó el funcionamiento del tablero React, incluyendo la consulta de series, la búsqueda, los filtros y la navegación.
 
 ## 2. React Router
 
@@ -92,7 +92,8 @@ Se aplicó correctamente la migración Inicial en SQL Server Express. Se comprob
 Entity Framework Core permite representar tablas mediante clases de C# y gestionar cambios en el esquema mediante migraciones.
 
 ### Evidencia
-Pendiente: agregar captura de la compilación y migración.
+Se verificó la compilación con 0 errores y 0 advertencias, la aplicación de la migración Inicial en SQL Server Express y las respuestas de los endpoints GET /api/series y GET /api/miembros.
+
 
 
 
