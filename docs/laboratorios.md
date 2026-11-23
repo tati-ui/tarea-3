@@ -31,7 +31,7 @@ Se implementó navegación mediante react-router-dom.
 React Router permite crear diferentes vistas dentro de una aplicación de página única.
 
 ### Evidencia
-Pendiente: agregar captura de la navegación.
+![Evidencia de React Router](evidencias/02-react-router.png)
 
 ## 3. Express y API REST
 
@@ -47,7 +47,7 @@ Se desarrolló un servidor Express con las siguientes operaciones:
 La API separa la interfaz React de la lógica del servidor.
 
 ### Evidencia
-Pendiente: agregar captura de la respuesta de la API.
+![Evidencia adicional](evidencias/EV.png)
 
 ## 4. MongoDB
 
@@ -67,7 +67,7 @@ Se agregó una serie desde React y se comprobó su almacenamiento en MongoDB Com
 MongoDB permite conservar los datos después de reiniciar el servidor, a diferencia de un arreglo en memoria.
 
 ### Evidencia
-Pendiente: agregar captura de MongoDB Compass.
+![Evidencia de MongoDB](evidencias/04-mongodb.png)
 
 ## 5. ASP.NET Core y Entity Framework Core
 
@@ -93,5 +93,6 @@ Entity Framework Core permite representar tablas mediante clases de C# y gestion
 
 ### Evidencia
 Pendiente: agregar captura de la compilación y migración.
+
 
 
