@@ -1,4 +1,4 @@
-
+﻿
 # Laboratorios — Maratón de Series
 
 ## 1. React y componentes
@@ -85,11 +85,13 @@ Se desarrolló una API con ASP.NET Core y Entity Framework Core 8.
 - Compilación correcta con dotnet build.
 - Generación de la migración Inicial mediante dotnet ef migrations add Inicial.
 
-### Estado pendiente
-No se ha comprobado la aplicación de la migración en SQL Server ni la ejecución de las consultas contra esa base de datos.
+### Verificación realizada
+Se aplicó correctamente la migración Inicial en SQL Server Express. Se comprobó la conexión a la base MaratonSeries y se ejecutaron los endpoints GET /api/series y GET /api/miembros, ambos con respuesta correcta y listas vacías.
 
 ### Reflexión
 Entity Framework Core permite representar tablas mediante clases de C# y gestionar cambios en el esquema mediante migraciones.
 
 ### Evidencia
 Pendiente: agregar captura de la compilación y migración.
+
+
