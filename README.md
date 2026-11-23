@@ -1,4 +1,4 @@
-# Parte A — Aplicación React: Gestor de Series
+﻿# Parte A — Aplicación React: Gestor de Series
 
 ## Descripción del proyecto
 
@@ -17,9 +17,9 @@ El proyecto forma parte de la Tarea 3 de Programación Web Avanzada y demuestra 
 | CSS | Diseño visual y adaptación de la interfaz |
 | Node.js | Ejecución del servidor |
 | Express | API REST |
-| Almacenamiento en memoria | Simulación de persistencia de datos |
+| MongoDB y Mongoose | Persistencia de series en una base de datos |
 
-**Nota:** El servidor utiliza almacenamiento en memoria. No existe una conexión real con MongoDB y los cambios pueden perderse al reiniciar el servidor.
+**Nota:** El servidor Express utiliza MongoDB mediante Mongoose. Los datos se conservan después de reiniciar el servidor.
 
 ## Funcionalidades
 
